@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SortAlgorithms">
+      <UniqueIdentifier>{27bd6d97-cbee-4330-9c22-def1c7e8b31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ActionsOnArray">
+      <UniqueIdentifier>{6a48d003-fca8-4523-8944-0ed399a971d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{a6c7f18d-38b6-401c-8cd1-91299dfef3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{20a05e62-f1c3-45a5-9fd9-c34aacb40d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExecSortMeasuring">
+      <UniqueIdentifier>{de97091d-e8bf-4117-a21e-7a79a7e64332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BuildingGraph">
+      <UniqueIdentifier>{382cb5d6-8834-4347-92ba-478e0890af75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Source Files\SortAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort.cpp">
+      <Filter>Source Files\SortAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>Source Files\SortAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>Source Files\SortAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionsOnArray.cpp">
+      <Filter>Source Files\ActionsOnArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMeasuring.cpp">
+      <Filter>Source Files\ExecSortMeasuring</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildGraph.cpp">
+      <Filter>Source Files\BuildingGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionsPrototypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matplotlibcpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
